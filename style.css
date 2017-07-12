@@ -1,15 +1,72 @@
-.purplef{
-	color: #d199ef;
-}
 .aquaf{
 	color: aquamarine;
-}
-.pinkf{
-	color: pink;
 }
 .chartf{
 	color: chartreuse;
 }
 .silverf{
 	color: silver;
+}
+h1{
+	text-align: center;
+	left: 25px;
+	font-size: 100px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: #d199ef;
+}
+
+}
+.cat1{
+	position: absolute;
+	right: 400px;
+}
+.cat2{
+	position: absolute;
+	right: 750px;
+}
+
+/* Starting nav css */
+
+nav{
+	top: 20px;
+	background-color: #d199ef;
+}
+
+nav ul{
+	position: absolute;
+	left: 700px;
+	top: 10px;
+	font-size: 40px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	float: left;
+	background-color: #d199ef;
+}
+
+nav ul li:hover {
+	background-color: aqua;
+}
+nav ul li:visited{
+	background-color: black;
+}
+
+nav ul li a {
+	display: block;
+	padding: 0 25px;
+	text-decoration: none;
+	color: pink;
+}
+
+nav ul li a:hover{
+	color: chartreuse;
+}
+nav ul li a:active{
+	color: pink;
+}
+nav ul li a:visited{
+	color: black;
 }
